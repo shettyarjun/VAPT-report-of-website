@@ -1,42 +1,3 @@
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        color: #333;
-        background-color: #f8f9fa;
-        padding: 20px;
-    }
-    h1 {
-        color: #007bff;
-    }
-    h2 {
-        color: #6610f2;
-    }
-    h3 {
-        color: #6f42c1;
-    }
-    h4 {
-        color: #dc3545;
-    }
-    p {
-        margin-bottom: 15px;
-    }
-    ul {
-        list-style-type: disc;
-        margin-bottom: 15px;
-    }
-    li {
-        margin-bottom: 5px;
-    }
-    a {
-        color: #007bff;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
-
 <h1>Internshala Ethical Hacking Final Project Report</h1>
 
 <h2>Introduction</h2>
@@ -61,7 +22,6 @@
     <li>Enumeration: Gathering more detailed information about the target system, such as user accounts, shares, and services.</li>
     <li>Vulnerability Analysis: Identifying and assessing vulnerabilities in the target system, including common web application vulnerabilities such as SQL injection, cross-site scripting (XSS), and insecure authentication mechanisms.</li>
     <li>Exploitation: Attempting to exploit identified vulnerabilities to gain unauthorized access or perform malicious actions.</li>
-    <li>Post-Exploitation: Once access is gained, further enumerating the system, escalating privileges, and maintaining access.</li>
     <li>Reporting: Documenting findings, including identified vulnerabilities, their severity, and recommendations for remediation.</li>
 </ol>
 
@@ -70,11 +30,23 @@
 <p>The assessment revealed several vulnerabilities in the Lifestyle Store application, including:</p>
 
 <ul>
-    <li>SQL Injection: The application was vulnerable to SQL injection attacks, allowing an attacker to extract sensitive information from the database.</li>
-    <li>Cross-Site Scripting (XSS): Multiple XSS vulnerabilities were identified, which could be exploited to execute arbitrary JavaScript code in users' browsers.</li>
-    <li>Insecure Authentication: Weak password policies and lack of multi-factor authentication made user accounts susceptible to brute-force attacks.</li>
-    <li>Session Management Issues: Insufficient session timeouts and session fixation vulnerabilities could lead to unauthorized access to user accounts.</li>
-    <li>Insecure Direct Object References (IDOR): Lack of proper authorization checks allowed attackers to access sensitive resources and perform actions on behalf of other users.</li>
+  <li>Bruteforce exploitation</li>
+  <li>Client-side filter bypass</li>
+  <li>Command execution</li>
+  <li>Component with known vulnerability</li>
+  <li>CSRF (Cross-Site Request Forgery)</li>
+  <li>Customer account access</li>
+  <li>Default files</li>
+  <li>Directory listing</li>
+  <li>File inclusion</li>
+  <li>Forced browsing</li>
+  <li>IDOR (Insecure Direct Object Reference)</li>
+  <li>Insecure file uploads</li>
+  <li>Open Redirection</li>
+  <li>PII (Personally Identifiable Information) Leakage</li>
+  <li>SQL injections</li>
+  <li>Weak passwords</li>
+  <li>XSS (Cross-Site Scripting)</li>
 </ul>
 
 <h2>Recommendations</h2>
@@ -95,5 +67,3 @@
 
 <p>For further inquiries or to discuss the findings in detail, please contact me via LinkedIn: <a href="https://www.linkedin.com/in/arjun-shetty-255049229/">Arjun Shetty</a>.</p>
 
-</body>
-</html>
